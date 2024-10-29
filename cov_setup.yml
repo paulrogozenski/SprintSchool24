@@ -1,0 +1,42 @@
+GaussianFsky:
+  fsky: 0.42
+tjpcov:
+  IA: 1.0
+  Ngal_lens0: 2.25
+  Ngal_lens1: 3.098
+  Ngal_lens2: 3.071
+  Ngal_lens3: 2.595
+  Ngal_lens4: 1.998
+  Ngal_src0: 2.036
+  Ngal_src1: 1.964
+  Ngal_src2: 1.973
+  Ngal_src3: 1.987
+  Ngal_src4: 2.023
+  bias_lens0: 1.24
+  bias_lens1: 1.38
+  bias_lens2: 1.52
+  bias_lens3: 1.68
+  bias_lens4: 1.83
+  binning_scheme: log
+  cosmo: cov_cosmo.yaml
+  cov_type:
+  - FourierGaussianFsky
+  lmax: 2000
+  lmin: 20
+  nonlimber: false
+  sacc_file: my_dv.sacc
+  sigma_e_src0: 0.26
+  sigma_e_src1: 0.26
+  sigma_e_src2: 0.26
+  sigma_e_src3: 0.26
+  sigma_e_src4: 0.26
+  sigma_z_lens0: 0.03
+  sigma_z_lens1: 0.03
+  sigma_z_lens2: 0.03
+  sigma_z_lens3: 0.03
+  sigma_z_lens4: 0.03
+  sigma_z_src0: 0.05
+  sigma_z_src1: 0.05
+  sigma_z_src2: 0.05
+  sigma_z_src3: 0.05
+  sigma_z_src4: 0.05
